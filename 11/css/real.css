@@ -30,6 +30,7 @@ p{
 @keyframes mys {
     0% {opacity: 0%;}
     25%{opacity: 0;}
+    50%{opacity: 0}
     75%{opacity: 100%}
     100%{opacity: 0%}
 }
