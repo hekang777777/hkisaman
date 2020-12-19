@@ -7,3 +7,28 @@ body{
     font-size: 55px;
     color: white;
 }
+p{
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+
+}
+@keyframes myf {
+    0% {opacity: 0%;}
+    25%{opacity: 100%;}
+    75%{opacity: 0%}
+    100%{opacity: 0%}
+}
+@keyframes mys {
+    0% {opacity: 0%;}
+    25%{opacity: 0;}
+    75%{opacity: 100%}
+    100%{opacity: 0%}
+}
+#el1{
+    animation: myf  7s infinite;
+}
+#el2 {
+    animation: mys 7s infinite;
+ }
