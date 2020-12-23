@@ -9,8 +9,10 @@ body{
 }
 #hx{
     position: absolute;
-    top: 200px;
-    width: 100%;
+    top: 100px;
+    left: 10%;
+    right: 10%;
+    width:80%;
 
 }
 h1{
